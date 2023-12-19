@@ -7,7 +7,7 @@ def test_places() -> None:
     """Test for simple seach of Place."""
     client = MeteoFranceClient()
 
-    list_places = client.search_places("montreal")
+    list_places = client.search_places("montauban")
 
     assert list_places
 
